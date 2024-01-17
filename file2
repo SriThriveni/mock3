@@ -1,22 +1,22 @@
 #!/bin/bash
 
-echo "enter the 1 to 6 numbers"
-read num
-case $num in
-1)echo " monday"
+echo "enter the days"
+read day
+case $day in
+monday)echo "day in week"
 ;;
-2)echo "tuesday"
+tuesday)echo "day in week"
 ;;
-3)echo "wednesday"
+wednesday)echo "day in week"
 ;;
-4)echo "thursday"
+thursday)echo "day in week"
 ;;
-5)echo "friday"
+friday)echo "day in week"
 ;;
-6)echo "saturday"
+sunday)echo "day in week"
 ;;
-7)echo "sunday"
+saturady)echo "day in week"
 ;;
-*)echo "enter valid number"
+*)echo "enter valid day"
 ;;
 esac 
