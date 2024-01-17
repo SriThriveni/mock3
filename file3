@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "enter the vowels"
+read l
+
+case $l in
+a)echo "vowel"
+;;
+e)echo "vowel"
+;;
+i)echo "vowel"
+;;
+o)echo "vowel"
+;;
+u)echo "vowel"
+;;
+*)echo  "enter valid letter"
+;;
+esac
